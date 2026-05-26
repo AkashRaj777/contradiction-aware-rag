@@ -98,11 +98,6 @@ contradiction-rag/
 
 Details: `data/eval/results_full.json`
 
-## Resume bullets
-
-- Built a **corrective RAG pipeline** with hybrid BM25+vector retrieval, cross-encoder grading, and a **60-query** eval harness (25 normal / 20 conflict / 15 refuse) over a synthetic policy corpus.
-- Implemented **contradiction-aware answers** and **calibrated refusal**, achieving **70% behavior accuracy** and **82% retrieval recall** on the labeled eval set.
-- Shipped a **Streamlit demo** with citation-level grounding for policy Q&A (OpenAI `gpt-4o-mini`, local embeddings).
 
 ## API cost notes
 
