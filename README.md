@@ -5,16 +5,13 @@ Hybrid-retrieval RAG over a synthetic company policy corpus. The pipeline grades
 ## Screenshots
 
 ### Home — ask any policy question
-![Home view](docs/screenshots/01-home.png)
+![Home view](docs/screenshots/home1.png)
 
-### Grounded answer with citations
-![Grounded answer](docs/screenshots/02-answer.png)
+### How it works — pipeline overview
+![Pipeline overview](docs/screenshots/home2.png)
 
-### Conflicting sources flagged side-by-side
-![Conflict detection](docs/screenshots/03-conflict.png)
-
-### Calibrated refusal when evidence is missing
-![Refusal](docs/screenshots/04-refuse.png)
+### Sample question in action
+![Sample question](docs/screenshots/sample_q.png)
 
 ## Features
 
