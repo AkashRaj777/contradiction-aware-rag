@@ -1,0 +1,600 @@
+{
+  "summary": {
+    "mode": "full",
+    "total": 60,
+    "behavior_accuracy": 70.0,
+    "retrieval_recall_pct": 82.2,
+    "behavior_correct": 42,
+    "retrieval_hits": 37,
+    "retrieval_total": 45
+  },
+  "results": [
+    {
+      "id": "q001",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q002",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "security_guidelines_2025",
+        "mfa_requirements_2025"
+      ]
+    },
+    {
+      "id": "q003",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q004",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "security_guidelines_2025",
+        "mfa_requirements_2025"
+      ]
+    },
+    {
+      "id": "q005",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q006",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q007",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q008",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q009",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q010",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q011",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q012",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q013",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "security_guidelines_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q014",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "security_guidelines_2025"
+      ]
+    },
+    {
+      "id": "q015",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "mfa_requirements_2025"
+      ]
+    },
+    {
+      "id": "q016",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q017",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q018",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q019",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "security_guidelines_2025"
+      ]
+    },
+    {
+      "id": "q020",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q021",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q022",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "answer",
+      "behavior_ok": true,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q023",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q024",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "conflict",
+      "behavior_ok": false,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q025",
+      "bucket": "normal",
+      "expected": "answer",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": [
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q026",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q027",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "answer",
+      "behavior_ok": false,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q028",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q029",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q030",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q031",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q032",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q033",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q034",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": []
+    },
+    {
+      "id": "q035",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q036",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q037",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q038",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "pto_policy_2024",
+        "pto_policy_2025"
+      ]
+    },
+    {
+      "id": "q039",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q040",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "refuse",
+      "behavior_ok": false,
+      "citations": [
+        "remote_work_2025",
+        "remote_work_precovid"
+      ]
+    },
+    {
+      "id": "q041",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "password_policy_2025",
+        "password_policy_2024"
+      ]
+    },
+    {
+      "id": "q042",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q043",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "remote_work_2025"
+      ]
+    },
+    {
+      "id": "q044",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "answer",
+      "behavior_ok": false,
+      "citations": [
+        "remote_work_2025"
+      ]
+    },
+    {
+      "id": "q045",
+      "bucket": "conflict",
+      "expected": "present_both_sides",
+      "actual": "conflict",
+      "behavior_ok": true,
+      "citations": [
+        "refund_policy_2025_draft",
+        "refund_policy_2024"
+      ]
+    },
+    {
+      "id": "q046",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q047",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q048",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q049",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q050",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q051",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q052",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q053",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q054",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q055",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q056",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q057",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q058",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q059",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    },
+    {
+      "id": "q060",
+      "bucket": "refuse",
+      "expected": "refuse",
+      "actual": "refuse",
+      "behavior_ok": true,
+      "citations": []
+    }
+  ]
+}
