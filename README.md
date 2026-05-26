@@ -2,6 +2,20 @@
 
 Hybrid-retrieval RAG over a synthetic company policy corpus. The pipeline grades evidence, rewrites queries when retrieval is weak, detects conflicting sources, refuses unanswerable questions, and checks answer faithfulness.
 
+## Screenshots
+
+### Home — ask any policy question
+![Home view](docs/screenshots/01-home.png)
+
+### Grounded answer with citations
+![Grounded answer](docs/screenshots/02-answer.png)
+
+### Conflicting sources flagged side-by-side
+![Conflict detection](docs/screenshots/03-conflict.png)
+
+### Calibrated refusal when evidence is missing
+![Refusal](docs/screenshots/04-refuse.png)
+
 ## Features
 
 - **Hybrid search:** BM25 + vector embeddings (Chroma + sentence-transformers)
